@@ -47,7 +47,13 @@ App {
   }
 }
 
-
+.App-body {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  flex-direction: row;
+  margin: 5px; /* Further reduced margin */
+}
 
 .App-sidebar {
   width: 25%;
@@ -57,10 +63,7 @@ App {
   border-right: 1px solid #ddd;
 }
 
-.App-sidebar h2 {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
+
 
 .App-sidebar form {
   display: flex;
