@@ -83,7 +83,14 @@ App {
   font-size: 16px;
 }
 
-
+.App-sidebar form button {
+  background-color: black; 
+  color: white; 
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
 .App-sidebar form button:hover {
   background-color: red;
@@ -99,10 +106,7 @@ App {
   box-sizing: border-box;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
+
 
 table th,
 table td {
