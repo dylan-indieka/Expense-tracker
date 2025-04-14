@@ -68,7 +68,10 @@ App {
   margin-bottom: 20px;
 }
 
-
+.App-sidebar form {
+  display: flex;
+  flex-direction: column;
+}
 
 .App-sidebar form input,
 .App-sidebar form select,
@@ -123,6 +126,3 @@ table th {
   background-color: #f4f4f4;
 }
 
-table tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
