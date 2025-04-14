@@ -96,11 +96,7 @@ App {
   background-color: red;
 }
 
-.App-main {
-  flex: 1;
-  padding: 20px;
-  overflow-y: auto;
-}
+
 
 .search-bar {
   margin-bottom: 20px;
