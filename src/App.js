@@ -15,8 +15,7 @@ function App() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
+  
 
     setExpenses([...expenses, { ...formData, id: Date.now() }]); // Add a unique ID to each expense
     setFormData({ expenseName: '', description: '', amount: '', category: '', date: '' });
