@@ -63,12 +63,12 @@ App {
   border-right: 1px solid #ddd;
 }
 
-
-
-.App-sidebar form {
-  display: flex;
-  flex-direction: column;
+.App-sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
+
+
 
 .App-sidebar form input,
 .App-sidebar form select,
