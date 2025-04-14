@@ -92,9 +92,7 @@ App {
   cursor: pointer;
 }
 
-.App-sidebar form button:hover {
-  background-color: red;
-}
+
 
 .App-main {
   flex: 1;
@@ -110,7 +108,10 @@ App {
   box-sizing: border-box;
 }
 
-
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
 
 table th,
 table td {
