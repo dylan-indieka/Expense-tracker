@@ -68,7 +68,10 @@ App {
   margin-bottom: 20px;
 }
 
-
+.App-sidebar form {
+  display: flex;
+  flex-direction: column;
+}
 
 .App-sidebar form input,
 .App-sidebar form select,
@@ -80,14 +83,7 @@ App {
   font-size: 16px;
 }
 
-.App-sidebar form button {
-  background-color: black; 
-  color: white; 
-  border: none;
-  padding: 10px;
-  font-size: 16px;
-  cursor: pointer;
-}
+
 
 .App-sidebar form button:hover {
   background-color: red;
